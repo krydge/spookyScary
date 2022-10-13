@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "f2hpD8dZUXfFCjkY+fW4wFVmV3kD2wa4FRkGnZxZoqBOUzkkFjhTx5ci45TwSMM0CxU0n24NFYuX9w4YHW1V1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\ghostControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krydg\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\krydg\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
