@@ -50,7 +50,7 @@ public class Game1 : Game
         this.savedGhosts = 0;
         this.cooldown = 0;
         this.flyTime = 100;
-        this.startGame= false;
+        this.startGame = false;
         this.w = _graphics.PreferredBackBufferWidth;
         this.h = _graphics.PreferredBackBufferHeight;
         this.Level = new int[,]{
@@ -78,8 +78,8 @@ public class Game1 : Game
                 {
                     Console.WriteLine("Placed ground");
                     Rydge.Ground g = new Rydge.Ground();
-                    g.setxpos(y*32);
-                    g.setypos(x*32);
+                    g.setxpos(y * 32);
+                    g.setypos(x * 32);
                     grounds.Add(g);
 
                 }
@@ -87,8 +87,8 @@ public class Game1 : Game
                 {
                     Console.WriteLine("Placed Save Block");
                     Rydge.Ground g = new Rydge.Ground();
-                    g.setxpos(y*32);
-                    g.setypos(x*32);
+                    g.setxpos(y * 32);
+                    g.setypos(x * 32);
                     savedBlocks.Add(g);
                 }
                 if (Level[x, y] == 0)
@@ -99,24 +99,24 @@ public class Game1 : Game
                 {
                     Console.WriteLine("Placed Player");
                     this.player = new Rydge.Player();
-                    player.setxpos(y*32);
-                    player.setypos(x*32);
-                    
+                    player.setxpos(y * 32);
+                    player.setypos(x * 32);
+
                 }
                 if (Level[x, y] == 2)
                 {
                     Console.WriteLine("Placed Ghost");
                     Rydge.Ghost g = new Rydge.Ghost();
-                    g.setxpos(y*32);
-                    g.setypos(x*32);
+                    g.setxpos(y * 32);
+                    g.setypos(x * 32);
                     ghosts.Add(g);
                 }
                 if (Level[x, y] == 4)
                 {
                     Console.WriteLine("Placed Goblin");
                     Rydge.Goblin g = new Rydge.Goblin();
-                    g.setxpos(y*32);
-                    g.setypos(x*32);
+                    g.setxpos(y * 32);
+                    g.setypos(x * 32);
                     goblins.Add(g);
                 }
 
@@ -181,10 +181,12 @@ public class Game1 : Game
 
     protected override void Update(GameTime gameTime)
     {
-        if(startGame==false){
+        if (startGame == false)
+        {
             var kstate = Keyboard.GetState();
-            if (kstate.IsKeyDown(Keys.Enter)){
-            startGame=true;
+            if (kstate.IsKeyDown(Keys.Enter))
+            {
+                startGame = true;
             }
         }
         else if (!endLevel)
@@ -233,7 +235,7 @@ public class Game1 : Game
             {
                 if (playerColidesGround(this.player, ground))
                 {
-                    flyTime = 100;
+                    flyTime = 30;
                     touchingGround = true;
                 }
             }
@@ -291,8 +293,21 @@ public class Game1 : Game
             if (touchingGround)
             {
                 Console.WriteLine("Colides");
-                if (kstate.IsKeyDown(Keys.Down)){
+                if (kstate.IsKeyDown(Keys.Down))
+                {
                     this.player.changeypos((this.player.getyvel() * (float)gameTime.ElapsedGameTime.TotalSeconds));
+                }
+                else if (kstate.IsKeyDown(Keys.Up))
+                {
+                    this.player.changeypos((this.player.getyvel() * (float)gameTime.ElapsedGameTime.TotalSeconds));
+                }
+                else if (kstate.IsKeyDown(Keys.Left))
+                {
+                    this.player.changexpos(-(this.player.getxvel() * (float)gameTime.ElapsedGameTime.TotalSeconds));
+                }
+                else if (kstate.IsKeyDown(Keys.Right))
+                {
+                    this.player.changexpos((this.player.getxvel() * (float)gameTime.ElapsedGameTime.TotalSeconds));
                 }
             }
             else
@@ -314,7 +329,8 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
-        if( startGame==false){
+        if (startGame == false)
+        {
             _spriteBatch.Draw(start, new Vector2(0, 0), Color.White);
         }
         else if (!endLevel)
