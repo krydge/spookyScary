@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\ghostControl.csproj",
+      "projectUniqueName": "C:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\ghostControl.csproj",
       "projectName": "ghostControl",
-      "projectPath": "c:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\ghostControl.csproj",
+      "projectPath": "C:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\ghostControl.csproj",
       "packagesPath": "C:\\Users\\krydg\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\obj\\",
+      "outputPath": "C:\\Users\\krydg\\source\\repos\\c#\\games\\ghostControl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -170,7 +170,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

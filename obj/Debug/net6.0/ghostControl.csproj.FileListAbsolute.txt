@@ -23,3 +23,14 @@ C:\Users\krydg\source\repos\c#\games\ghostControl\obj\Debug\net6.0\refint\ghostC
 C:\Users\krydg\source\repos\c#\games\ghostControl\obj\Debug\net6.0\ghostControl.pdb
 C:\Users\krydg\source\repos\c#\games\ghostControl\obj\Debug\net6.0\ghostControl.genruntimeconfig.cache
 C:\Users\krydg\source\repos\c#\games\ghostControl\obj\Debug\net6.0\ref\ghostControl.dll
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\ball.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\astro.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\ground.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\Ghost.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\Goblin.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\saveBlock.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\Spikes.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\savedAll.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\savedBad.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\Background.xnb
+C:\Users\krydg\source\repos\c#\games\ghostControl\bin\Debug\net6.0\Content\start.xnb

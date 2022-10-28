@@ -1,1 +1,12 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/astro.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/astro.xnb","TextureProcessor","Texture2DContent",1908,12325,0.2226502
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/Background.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/Background.xnb","TextureProcessor","Texture2DContent",22452,1536085,0.2477454
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/ball.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1842475
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/Ghost.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/Ghost.xnb","TextureProcessor","Texture2DContent",1056,5845,0.1470032
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/Goblin.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/Goblin.xnb","TextureProcessor","Texture2DContent",1248,4181,0.1846483
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/ground.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/ground.xnb","TextureProcessor","Texture2DContent",822,4181,0.163845
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/saveBlock.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/saveBlock.xnb","TextureProcessor","Texture2DContent",627,4181,0.0044179
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/savedAll.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/savedAll.xnb","TextureProcessor","Texture2DContent",15691,1536085,0.2866247
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/savedBad.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/savedBad.xnb","TextureProcessor","Texture2DContent",25391,1536085,0.2268918
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/Spikes.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/Spikes.xnb","TextureProcessor","Texture2DContent",900,4181,0.0044583
+"C:/Users/krydg/source/repos/c#/games/ghostControl/Content/start.png","C:/Users/krydg/source/repos/c#/games/ghostControl/Content/bin/DesktopGL/Content/start.xnb","TextureProcessor","Texture2DContent",18309,1536085,0.2743303
